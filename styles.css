@@ -21,6 +21,10 @@ body {
     padding: 20px;
 }
 
+.current-weather {
+    margin-top: 30px;
+}
+
 .info {
     margin: 0px;
     font-size: 20;
@@ -69,3 +73,17 @@ body {
 .current-weather-image {
     border-radius: 10px;
 }
+
+.sun-image {
+    width: 30px; 
+    height: 30px; 
+}
+
+.hour img {
+    width: 50px; 
+    height: 55px; 
+    object-fit: contain; 
+    display: block; 
+    margin: 0 auto; 
+}
+
