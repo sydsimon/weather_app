@@ -1,0 +1,71 @@
+body {
+    font-family: "Jaldi", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #87CEFA;
+    color: white;
+    text-align: center;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.weather-app {
+    width: 375px;
+    height: 812px;
+    background: linear-gradient(to bottom, #87CEFA, #4682B4);
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    padding: 20px;
+}
+
+.info {
+    margin: 0px;
+    font-size: 20;
+}
+.forecast {
+    font-size: 45;
+    margin: 0px
+}
+
+.temp {
+    margin: 0px;
+    font-size: 75;
+    height: 100px;
+    font-weight: 100;
+}
+.hourly-forecast {
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+.scroll-container {
+    display: inline-flex;
+}
+.hour {
+    width: 90px;
+    display: inline-block;
+}
+
+.weekly-forecast {
+    margin-top: 20px;
+    max-height: 300px;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+.week {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.current-weather-image {
+    border-radius: 10px;
+}
